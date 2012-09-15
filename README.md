@@ -5,11 +5,17 @@ Populate an SQL database with fund information
 
 To run the extractor:
 
+<<<<<<< HEAD
 1) Modify the parameters found in extractor.properties as necessary
 2) Mase sure the DB is set as in db/funds.sql and priceStructure.sql
+=======
+1) Modify the parameters found in extractor.properties as necessary.
+2) Make sure the DB is set as in db/funds.sql and priceStructure.sql
+>>>>>>> fixed typos
 3) Run the program with:
 
        java -jar yahoo.jar
+
 
 NOTES:
 
